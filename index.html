@@ -4,10 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Learn more about Linda Maduka, a front-end developer from Enugu, Nigeria, passionate about building responsive websites and user-friendly interfaces."
-    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,7 +16,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>About Linda Maduka - Front-End Developer from Enugu, Nigeria</title>
+    <title>Linda Maduka - Front-end Developer</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -37,8 +33,8 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse" id="navbarNav" style="">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html"
                 >Home</a
@@ -54,19 +50,29 @@
         </div>
       </div>
     </nav>
-    <h2>👋 Hi, I am</h2>
-    <h1>Linda Maduka</h1>
-    <h3><sub>NG</sub> Front-end developer, based in Enugu</h3>
-    <div class="navigation-links mb-3">
-      <a href="about.html#contact" class="contact-link">Contact me</a>
-      <a href="about.html" class="about-link">About me</a>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <img src="images/yoga.png" class="img-fluid rounded" />
+
+    <main class="container mt-5">
+      <h2>👋 Hi, I am</h2>
+      <h1>Linda Maduka</h1>
+      <h3><sub>NG</sub> Front-end Developer, based in Enugu</h3>
+      <div class="navigation-links mb-3">
+        <a href="about.html#contact" class="contact-link btn btn-primary"
+          >Contact me</a
+        >
+        <a href="about.html" class="about-link btn btn-outline-primary"
+          >About me</a
+        >
+      </div>
+
+      <div class="row my-5">
+        <div class="col-md-6 order-md-1 order-2">
+          <img
+            src="images/yoga.png"
+            alt="Yoga app screenshot"
+            class="img-fluid rounded"
+          />
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 order-md-2 order-1">
           <h2 class="mb-3">Yoga app</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -74,12 +80,13 @@
             eos eveniet alias temporibus deserunt veritatis minima fugiat
             explicabo eum dolore.
           </p>
-          <div class="mt-5">
-            <a href="#" class="contact-link">Launch Yoga App</a>
-          </div>
+          <a href="#" class="contact-link btn btn-primary mt-3"
+            >Launch Yoga App</a
+          >
         </div>
       </div>
-      <div class="row mt-5">
+
+      <div class="row my-5">
         <div class="col-md-6">
           <h2 class="mb-3">Weather app</h2>
           <p>
@@ -88,19 +95,28 @@
             eos eveniet alias temporibus deserunt veritatis minima fugiat
             explicabo eum dolore.
           </p>
-          <div class="mb-5 mt-5">
-            <a href="#" class="contact-link">Launch Weather App</a>
-          </div>
+          <a href="#" class="contact-link btn btn-primary mt-3"
+            >Launch Weather App</a
+          >
         </div>
         <div class="col-md-6">
-          <img src="images/weather.png" class="img-fluid rounded" />
+          <img
+            src="images/weather.png"
+            alt="Weather app screenshot"
+            class="img-fluid rounded"
+          />
         </div>
       </div>
-      <div class="row mt-5">
-        <div class="col-md-6">
-          <img src="images/yogurt.png" class="img-fluid rounded" />
+
+      <div class="row my-5">
+        <div class="col-md-6 order-md-1 order-2">
+          <img
+            src="images/yogurt.png"
+            alt="Yogurt app screenshot"
+            class="img-fluid rounded"
+          />
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 order-md-2 order-1">
           <h2 class="mb-3">Yogurt app</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -108,11 +124,11 @@
             eos eveniet alias temporibus deserunt veritatis minima fugiat
             explicabo eum dolore.
           </p>
-          <div class="mt-5">
-            <a href="#" class="contact-link">Launch Yogurt App</a>
-          </div>
+          <a href="#" class="contact-link btn btn-primary mt-3"
+            >Launch Yogurt App</a
+          >
         </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
